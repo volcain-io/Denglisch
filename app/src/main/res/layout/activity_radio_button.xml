@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_radio_button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.volcain.android.denglisch.RadioButtonActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question_text_view"
+            style="@style/QuizQuestionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/possible_answers_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/first_possible_answer_radio_button"
+                style="@style/PossibleAnswersStyle"
+                android:text="" />
+
+            <RadioButton
+                android:id="@+id/second_possible_answer_radio_button"
+                style="@style/PossibleAnswersStyle"
+                android:text="" />
+
+            <RadioButton
+                android:id="@+id/third_possible_answer_radio_button"
+                style="@style/PossibleAnswersStyle"
+                android:text="" />
+
+            <RadioButton
+                android:id="@+id/fourth_possible_answer_radio_button"
+                style="@style/PossibleAnswersStyle"
+                android:text="" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/gradle_button"
+            style="@style/GradleButtonStyle" />
+
+        <Button
+            android:id="@+id/score_button"
+            style="@style/NormalButtonStyle"
+            android:layout_width="match_parent"
+            android:onClick="displayScore"
+            android:text="@string/score" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <!-- general -->
+    <string name="app_name">Denglisch</string>
+    <string name="intro">What is Denglisch? Denglisch is small quiz app with 9 question to learn german.</string>
+    <string name="description">This is a small quiz with 9 questions to learn german.</string>
+    <string name="outro">Congratulations.\nYou completed the quiz.</string>
+    <string name="start_quiz">Let\'s begin</string>
+    <string name="end_quiz">Restart Quiz</string>
+    <string name="gradle_check">Check</string>
+    <string name="type_translation">Type the english translation</string>
+    <string name="translate_sentence">Translate this sentence</string>
+    <string name="select_missing_word">Select all missing words</string>
+    <string name="correct_answer">You are correct</string>
+    <string name="wrong_answer">Oops, that is not correct. Try again.</string>
+    <string name="quiz_hint">Please make a selection.</string>
+    <string name="quiz_hint_2">Please type in the translation.</string>
+    <string name="man">man</string>
+    <string name="woman">woman</string>
+    <string name="boy">boy</string>
+    <string name="result">You solved <xliff:g example="0" id="solved">%d</xliff:g> out of <xliff:g example="9" id="total">%d</xliff:g></string>
+    <string name="score">My Score</string>
+
+    <!-- quiz questions -->
+    <string name="question_which_is_man">Which of these is \"man\"?</string>
+    <string name="question_which_is_boy">Which of these is \"boy\"?</string>
+    <string name="question_which_is_woman">Which of these is \"woman\"?</string>
+    <string name="question_a_woman">Eine Frau</string>
+    <string name="question_a_man">Ein Mann</string>
+    <string name="question_i_am_a_man">Ich bin ein Mann</string>
+    <string name="question_i_am_placeholder_boy">Ich bin &#8230; Junge</string>
+    <string name="question_i_am_placeholder_man">Ich bin &#8230; Mann</string>
+    <string name="question_i_am_placeholder_woman">Ich bin &#8230; Frau</string>
+
+    <!-- possible answers (already  in german). will be used on the radio buttons -->
+    <string name="possible_answer_woman">Frau</string>
+    <string name="possible_answer_man">Mann</string>
+    <string name="possible_answer_boy">Junge</string>
+    <string name="possible_answer_bread">Brot</string>
+    <string name="possible_answer_water">Wasser</string>
+
+    <!-- possible answers (already  in german). will be used on the checkboxes -->
+    <string name="possible_answer_a">ein</string>
+    <string name="possible_answer_feminin_a">eine</string>
+    <string name="possible_answer_he">der</string>
+    <string name="possible_answer_she">die</string>
+    <string name="possible_answer_it">das</string>
+
+    <!-- correct answers. will be used on the edit texts-->
+    <string name="correct_answer_man">@string/possible_answer_man</string>
+    <string name="correct_answer_boy">@string/possible_answer_boy</string>
+    <string name="correct_answer_woman">@string/possible_answer_woman</string>
+    <string name="correct_answer_a_woman">a woman</string>
+    <string name="correct_answer_a_man">a man</string>
+    <string name="correct_answer_i_am_a_man">I am a man</string>
+    <string name="correct_answer_a">@string/possible_answer_a</string>
+    <string name="correct_answer_feminin_a">@string/possible_answer_feminin_a</string>
+    <string name="correct_answer_he">@string/possible_answer_he</string>
+    <string name="correct_answer_she">@string/possible_answer_she</string>
+</resources>
